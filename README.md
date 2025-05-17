@@ -27,9 +27,10 @@ Step 6:
 Verify the results for correctness.
 
 ## Program:
+```
 '''Program to solve a matrix using Gaussian elimination without partial pivoting.
-Developed by: 
-RegisterNumber: 
+Developed by: SAVISH R
+RegisterNumber: 212224230257
 '''
 import numpy as np
 import sys
@@ -60,7 +61,7 @@ for i in range(n-2,-1,-1):
   
 for i in range(n):
     print('X%d = %0.2f'%(i,x[i]),end=' ')
-
+```
 ## Output:
 ![image](https://github.com/user-attachments/assets/ccf9f6a7-b37e-4cd7-b082-e8ffc45aacd6)
 
